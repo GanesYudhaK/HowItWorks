@@ -8,15 +8,15 @@ const git = simpleGit();
 
 const pattern = [
    "  ###   ###   #####  ###   ###",
-   " ## ## ## ## ##     ## ## ## ##",
-   "##  # ##  ## #####  ##  # ##  #",
-   "##### ##  ## ##     ##### ##  #",
-   "##  ## ## ## ##     ##  ## ## ##",
+   " ## ## ##### ##     ## ## ## ##",
+   "##  # ###### #####  ##  # ##  #",
+   "##### ###### #####  ##### ##  ##",
+   "##  ## ##### ##     ##  ## ## ##",
    "##  ##  ###   ##### ##  ##  ###"
 ];
 
-const startDate = moment("2023-03-09", "YYYY-MM-DD");
-const endDate = moment("2023-06-24", "YYYY-MM-DD");
+const startDate = moment("2023-06-24", "YYYY-MM-DD");
+const endDate = moment("2023-07-22", "YYYY-MM-DD");
 
 const existingCommitDates = [
    "2023-09-05",
